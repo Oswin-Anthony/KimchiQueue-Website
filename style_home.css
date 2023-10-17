@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.navbar {
+    background: #c30d19;
+    padding: 30px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation li {
+    padding: 5px;
+    padding-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1500px;
+    max-width: 100%;
+    height: fit-content;
+    padding: 3%;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 20px;
+    flex: 1 1 21rem;
+    margin: 30px 30px;
+    padding: 7px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    align-self: normal;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card p {
+    padding-top: 2px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(63, 63, 63);    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {    
+    bottom: 0;
+    background: #c30d19;
+    height: 10vh;
+    padding: 30px;
+    padding-left: 47%;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+}
+
+.footer li{
+    padding: 5px;
+    padding-left: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
